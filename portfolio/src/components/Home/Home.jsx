@@ -2,6 +2,9 @@ import React from "react";
 import style from "./Home.module.css";
 import { vectorBlanco, line } from "../../assets/Images";
 import About from "./../About/About";
+import Services from "../Services/Services";
+import Portfolio from "./../Portfolio/Portfolio";
+import Contact from "../Contact/Contact";
 
 const Landing = () => {
   return (
@@ -54,6 +57,21 @@ const Landing = () => {
       {/* ABOUT */}
       <div>
         <About />
+      </div>
+
+      {/* SERVICES */}
+      <div>
+        <Services />
+      </div>
+
+      {/* PORTFOLIO */}
+      <div>
+        <Portfolio />
+      </div>
+
+      {/* CONTACT */}
+      <div>
+        <Contact />
       </div>
     </div>
   );

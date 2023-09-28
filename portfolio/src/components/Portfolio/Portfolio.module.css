@@ -1,0 +1,45 @@
+/* SECTION */
+.section {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section h1 {
+    color: var(--Blanco, #D9D9D9);
+    font-family: Epilogue;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* FILTERS */
+
+.filter_buttons{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.filter_button{
+    border-radius: 20px;
+    border: 1px solid #E9E9E9;
+    background-color: transparent;
+    color: #E9E9E9;
+    padding: 0.3rem 1.2rem;
+}
+
+
+
+/* PROJECT CARDS */
+.project_cards{
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 23rem);
+    gap: 1rem;
+    margin-bottom: 10rem;
+}

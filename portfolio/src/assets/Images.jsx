@@ -8,6 +8,13 @@ import vectorOutline from "../images/vector-outline.svg";
 import react from "../images/react.svg";
 import download from "../images/download.svg";
 import meeting from "../images/meeting.svg";
+import tth_img from "../images/tth-img.png";
+import connected from "../images/connected.png";
+import fivemetrix from "../images/fivemetrix.png";
+import nourish from "../images/nourish.png";
+import visiblesolar from "../images/visiblesolar.png";
+import arvako from "../images/arvako.png";
+import backgroundContact from "../images/background-contact.svg";
 
 export {
   emoji,
@@ -20,4 +27,11 @@ export {
   react,
   meeting,
   download,
+  tth_img,
+  connected,
+  fivemetrix,
+  nourish,
+  visiblesolar,
+  arvako,
+  backgroundContact,
 };
