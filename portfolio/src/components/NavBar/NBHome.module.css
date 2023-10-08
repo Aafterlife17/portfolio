@@ -22,10 +22,11 @@
 }
 
 .box .div_rrss{
-display: flex;
-flex-direction: row;
-gap: 10px;
-margin-right: 50px ;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 50px ;
 }
 
 .box .linkedin {

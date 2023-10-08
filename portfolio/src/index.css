@@ -6,3 +6,11 @@
   font-family: 'Epilogue', sans-serif;
   font-family: 'Sora', sans-serif;
 }
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+

@@ -2,21 +2,57 @@
 .section {
     margin: 0;
     padding: 0;
-        padding: 50px 0 50px 0;
-        background-image: url("./../../images/background_about.svg");
-        width: 100%;
-        height: auto;
-        background-size:cover;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    padding: 80px 0 100px 0;
+    background-image: url("./../../images/background_about.svg");
+    width: 100%;
+    height: auto;
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10rem;
 }
 
 .section h1 {
-    color: var(--Blanco, #D9D9D9);
+    color: var(--Negro, #232323);
     font-family: Epilogue;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
+    line-height: normal
+}
+
+/* CONTACT CONTAINER */
+.contact_container{
+    width: 600px;
+}
+
+
+/* SUBTITLE */
+.contact_subtitle{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+.contact_p {
+    margin: 0;
+}
+
+
+/* FORM */
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_button{
+    margin-top: 1.5rem;
+    background-color: #232323;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    color: #E5E5E5;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
 }

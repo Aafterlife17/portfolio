@@ -5,6 +5,7 @@ import About from "./../About/About";
 import Services from "../Services/Services";
 import Portfolio from "./../Portfolio/Portfolio";
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 
 const Landing = () => {
   return (
@@ -72,6 +73,11 @@ const Landing = () => {
       {/* CONTACT */}
       <div>
         <Contact />
+      </div>
+
+      {/* FOOTER */}
+      <div>
+        <Footer />
       </div>
     </div>
   );
