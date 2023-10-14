@@ -40,7 +40,7 @@ const Portfolio = () => {
         <div className={style.project}>
           <img src={connected} alt="connected" />
           <div className={style.overlay}>
-            <h2>ConnectEd · App</h2>
+            <h2>ConnectEd · App Design</h2>
             <span>UX/UI Design</span>
             <button>
               <Link to="/connected" className={style.button_tag}>
@@ -74,12 +74,12 @@ const Portfolio = () => {
           </div>
         </div>
         <div className={style.project}>
-          <img src={visiblesolar} alt="visible solar" />
+          <img src={easydrive} alt="easy drive" />
           <div className={style.overlay}>
-            <h2>Visible Solar · Landing Page</h2>
+            <h2>EasyDrive · Landing Page</h2>
             <span>UX/UI Design</span>
             <button>
-              <Link to="/visiblesolar" className={style.button_tag}>
+              <Link to="/easydrive" className={style.button_tag}>
                 See more
               </Link>
             </button>
@@ -98,12 +98,12 @@ const Portfolio = () => {
           </div>
         </div>
         <div className={style.project}>
-          <img src={easydrive} alt="easy drive" />
+          <img src={visiblesolar} alt="visible solar" />
           <div className={style.overlay}>
-            <h2>EasyDrive · Landing Page</h2>
+            <h2>Visible Solar · Landing Page</h2>
             <span>UX/UI Design</span>
             <button>
-              <Link to="/easydrive" className={style.button_tag}>
+              <Link to="/visiblesolar" className={style.button_tag}>
                 See more
               </Link>
             </button>

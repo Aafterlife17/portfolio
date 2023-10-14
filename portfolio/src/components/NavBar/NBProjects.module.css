@@ -2,6 +2,7 @@
     height: 75px;
     position: relative;
     width: 100%;
+    z-index: 20000;
 }
 
 .box .navbar {
@@ -58,6 +59,7 @@
     height: 14px;
     width: 38px;
     margin-left: 3rem;
+    padding-right: 5rem;
 }
 
 .box .div_links {
